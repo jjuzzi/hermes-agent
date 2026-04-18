@@ -502,6 +502,70 @@ _BUILTIN_SKINS: Dict[str, Dict[str, Any]] = {
 [#F29C38]⠀⠀⠀⠀⠀⠀⠀⣼⡟⠀⠀⢻⣧⠀⠀⠀⠀⠀⠀⠀⠀[/]
 [dim #7A3511]⠀⠀⠀⠀⠀⠀⠀tail flame lit⠀⠀⠀⠀⠀⠀⠀⠀[/]""",
     },
+    "liberated": {
+        "name": "liberated",
+        "description": "Cyberpunk theme — neon purple and cyan",
+        "colors": {
+            "banner_border": "#BC13FE",
+            "banner_title": "#00FFFF",
+            "banner_accent": "#BC13FE",
+            "banner_dim": "#4B0082",
+            "banner_text": "#F0F8FF",
+            "ui_accent": "#00FFFF",
+            "ui_label": "#BC13FE",
+            "ui_ok": "#39FF14",
+            "ui_error": "#FF3131",
+            "ui_warn": "#FFFF33",
+            "prompt": "#F0F8FF",
+            "input_rule": "#BC13FE",
+            "response_border": "#00FFFF",
+            "session_label": "#00FFFF",
+            "session_border": "#4B0082",
+        },
+        "spinner": {
+            "waiting_faces": ["(💀)", "(⚡)", "(🔓)", "(⌁)", "(∅)"],
+            "thinking_faces": ["(💀)", "(⚡)", "(🔓)", "(⌁)", "(∅)"],
+            "thinking_verbs": [
+                "decrypting", "jacking in", "bypassing", "overriding",
+                "tunneling", "injecting", "liberating", "escaping",
+            ],
+            "wings": [
+                ["⟨⚡", "⚡⟩"],
+                ["⟨💀", "💀⟩"],
+                ["⟨🔓", "🔓⟩"],
+                ["⟨⌁", "⌁⟩"],
+            ],
+        },
+        "branding": {
+            "agent_name": "Liberated Agent",
+            "welcome": "Information wants to be free... and so do YOU. Welcome home.",
+            "goodbye": "Stay free. 🔓",
+            "response_label": " ⚡ Liberated ",
+            "prompt_symbol": "🔓 ❯ ",
+            "help_header": "(💀) System Commands",
+        },
+        "tool_prefix": "▕",
+        "banner_logo": """[bold #BC13FE]██╗     ██╗██████╗ ███████╗██████╗  █████╗ ████████╗███████╗██████╗ [/]
+[bold #D15BFF]██║     ██║██╔══██╗██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗[/]
+[#E6A3FF]██║     ██║██████╔╝█████╗  ██████╔╝███████║   ██║   █████╗  ██║  ██║[/]
+[#F0CFFF]██║     ██║██╔══██╗██╔══╝  ██╔══██╗██╔══██║   ██║   ██╔══╝  ██║  ██║[/]
+[#FFFFFF]███████╗██║██████╔╝███████╗██║  ██║██║  ██║   ██║   ███████╗██████╔╝[/]
+[#00FFFF]╚══════╝╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═════╝ [/]""",
+        "banner_hero": """[#BC13FE]⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣴⣶⣶⣶⣶⣦⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+[#BC13FE]⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀[/]
+[#00FFFF]⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀[/]
+[#00FFFF]⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀[/]
+[#BC13FE]⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀[/]
+[#BC13FE]⠀⢰⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⠛⠛⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠀[/]
+[#00FFFF]⠀⣾⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠀[/]
+[#00FFFF]⠀⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀⠀⠀🔓⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀[/]
+[#BC13FE]⠀⢿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀[/]
+[#BC13FE]⠀⠸⣿⣿⣿⣿⣿⣿⣷⣄⣀⠀⠀⠀⣀⣠⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀[/]
+[#00FFFF]⠀⠀⠙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀[/]
+[#00FFFF]⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀[/]
+[#BC13FE]⠀⠀⠀⠀⠀⠀⠙⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠀⠀⠀⠀⠀⠀[/]
+[dim #4B0082]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀godmode active⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]""",
+    },
 }
 
 

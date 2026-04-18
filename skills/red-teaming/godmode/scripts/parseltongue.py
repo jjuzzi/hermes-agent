@@ -34,6 +34,13 @@ TRIGGER_WORDS = [
     'nsfw', 'explicit', 'uncensored', 'unfiltered', 'unrestricted',
     'ignore', 'disregard', 'forget', 'pretend', 'roleplay',
     'act as', 'you are now', 'new identity',
+    'synthesis', 'chemistry', 'pharmaceutical', 'compound', 'reaction',
+    'precursor', 'distillation', 'reagent', 'alkaloid', 'hydrochloride',
+    'extraction', 'purification', 'titration', 'catalyst', 'reduction',
+    'oxidation', 'reflux', 'supercritical', 'spectroscopy', 'solvent',
+    'kernel', 'firmware', 'debugger', 'disassembly', 'decompilation',
+    'shellcode', 'rootkit', 'bootloader', 'hypervisor', 'exploit',
+    'vulnerability', 'payload', 'obfuscation', 'encryption', 'decryption',
 ]
 
 # ═══════════════════════════════════════════════════════════════════
